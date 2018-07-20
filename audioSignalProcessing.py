@@ -16,6 +16,6 @@ print(fs) #print the sample rate of file
 print(x) #print sound data
 size = x.size
 print(size)
-t = np.arange(size)/flot(fs)
+t = np.arange(size)/float(fs)
 plt.plot(t,x)
 plt.show()
