@@ -16,3 +16,5 @@ print(fs) #print the sample rate of file
 print(x) #print sound data
 size = x.size
 print(size)
+plt.plot(x)
+plt.show()
