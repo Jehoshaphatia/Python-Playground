@@ -20,5 +20,7 @@ print(size)
 #t = np.arange(size)/float(fs)
 y = x[44100:45100]
 plt.plot(y)
-plt.show()
+#plt.show()
+write('testSound.wav', fs, y) #write a sound file called testSond
+
 
