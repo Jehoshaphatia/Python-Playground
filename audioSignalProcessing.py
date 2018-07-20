@@ -13,3 +13,4 @@ plt.show()
 
 (fs, x) = read('sound.wav') #read soud file called sound
 print(fs) #print the sample rate of file
+print(x) #print sound data
