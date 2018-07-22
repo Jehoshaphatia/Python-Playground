@@ -1,17 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-N = 32
-k = 5
-n = np.arange(-N/2, N/2)
-s = np.exp(1j * 2 * np.pi * k *n / N)
-
-#complex sine wave
-plt.plot(n, np.imag(s))
-plt.axis([-N/2, N/2-1, -1, 1])
-plt.xlabel('n')
-plt.ylabel('Amplitude')
-plt.show()
+x = np.array([])
+ for k in range(N):
+     s = np.exp(1j * 2 * pi * k / N * np.arange(N))
+     x = np.append(x, sum(x*np.conjugate(s)))
 
 
 
