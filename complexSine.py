@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-N = 500
-k = 3
+N = 32
+k = 5
 n = np.arange(-N/2, N/2)
 s = np.exp(1j * 2 * np.pi * k *n / N)
 
