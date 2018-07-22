@@ -1,4 +1,4 @@
-import matplotlib.pyplot as pyplotplt
+import matplotlib.pyplot as plt
 import numpy as np
 
 A = .8
