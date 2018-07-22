@@ -1,6 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+N = 500
+k = 3
+n = np.arange(-N/2, N/2)
+s = np.exp(ij * 2 * np.pi * k *n / N)
+
+
 A = .8
 f0 = 1000
 phi = np.pi/2
