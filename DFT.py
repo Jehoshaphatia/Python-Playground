@@ -3,7 +3,7 @@ import numpy as np
 
 N = 64
 k0 = 7
-x = np.exp(1j * 2 * np.pi * k0 / N * np.arange(N)) 
+x = np.cos(2 * np.pi * k0 / N * np.arange(N)) 
 
 x = np.array([ ])
 
