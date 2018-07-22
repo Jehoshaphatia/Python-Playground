@@ -7,7 +7,7 @@ x = np.exp(1j * 2 * np.pi * k0 / N * np.arange(N))
 
 x = np.array([])
 
- for k in range(N):
+for k in range(N):
      s = np.exp(1j * 2 * np.pi * k / N * np.arange(N))
      x = np.append(x, sum(x*np.conjugate(s)))
 
